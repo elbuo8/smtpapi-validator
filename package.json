@@ -1,0 +1,22 @@
+{
+  "name": "smtpapi-validator",
+  "version": "0.0.0",
+  "description": "Validate SendGrid's SMTPAPI Headers",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": [
+    "smtpapi",
+    "sendgrid"
+  ],
+  "author": "Yamil Asusta - elbuo8 (yamil@sendgrid.com)",
+  "license": "MIT",
+  "dependencies": {
+    "jsonschema": "^0.4.0"
+  }
+}
