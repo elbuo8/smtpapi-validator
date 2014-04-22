@@ -4,11 +4,13 @@
   "description": "Validate SendGrid's SMTPAPI Headers",
   "main": "lib/index.js",
   "scripts": {
-    "test": "node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha",
+    "posttest": "./node_modules/browserify/bin/cmd.js -r ./lib/index.js > assets/validator.js"
   },
   "devDependencies": {
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "browserify": "*"
   },
   "keywords": [
     "smtpapi",
