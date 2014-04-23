@@ -10,7 +10,8 @@
   "devDependencies": {
     "mocha": "*",
     "should": "*",
-    "browserify": "*"
+    "browserify": "*",
+    "gulp": "^3.6.1"
   },
   "keywords": [
     "smtpapi",
