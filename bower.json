@@ -1,0 +1,13 @@
+{
+  "name": "smtpapi-validator",
+  "version": "0.0.1",
+  "main": "./assets/validator.js",
+  "ignore": [
+    "lib",
+    "test",
+    "gulpfile.js",
+    "package.json",
+    "README.md",
+    "bower.json"
+  ]
+}
